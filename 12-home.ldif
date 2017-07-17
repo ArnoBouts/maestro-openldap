@@ -1,0 +1,11 @@
+dn: cn=home,ou=people,dc=home
+changetype: add
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: home
+sn: home
+displayName: Home
+uid: home
+userPassword:: e1NTSEF9Y1kzNVo5WVlxQlM2anBpM2ZJOXFLRnZDdmF6eFUzQ28=

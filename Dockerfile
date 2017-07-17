@@ -1,4 +1,5 @@
 FROM osixia/openldap
 
-ADD people.ldif /container/service/slapd/assets/config/bootstrap/ldif/people.ldif
-ADD groups.ldif /container/service/slapd/assets/config/bootstrap/ldif/groups.ldif
+ADD 10-people.ldif /container/service/slapd/assets/config/bootstrap/ldif/10-people.ldif
+ADD 11-groups.ldif /container/service/slapd/assets/config/bootstrap/ldif/11-groups.ldif
+ADD 12-home.ldif /container/service/slapd/assets/config/bootstrap/ldif/12-home.ldif
