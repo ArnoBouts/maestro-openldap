@@ -1,4 +1,5 @@
 FROM osixia/openldap
+# FROM_DIGEST sha256:1
 
 ADD 10-people.ldif /container/service/slapd/assets/config/bootstrap/ldif/10-people.ldif
 ADD 11-groups.ldif /container/service/slapd/assets/config/bootstrap/ldif/11-groups.ldif
